@@ -1,0 +1,84 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# ============================
+# Airflow / Composer
+# ============================
+# Airflow local metadata
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# Airflow logs
+logs/
+*/logs/
+
+# Airflow temp files
+*.pid
+*.err
+*.out
+
+# ============================
+# Spark / Dataproc
+# ============================
+# Spark checkpoints
+checkpoint/
+checkpoints/
+spark-warehouse/
+
+# Spark temp files
+derby.log
+.metastore/
+.metastore_db/
+
+# ============================
+# Google Cloud
+# ============================
+# Service account keys (NUNCA subir)
+*.json
+
+# Local GCP config
+.gcloud/
+.config/
+
+# ============================
+# OS / Editor files
+# ============================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VSCode
+.vscode/
+.code/
+
+# ============================
+# Project-specific
+# ============================
+# Output folders
+output/
+temp/
+tmp/
+data/
+
+# Ignore bucket downloads
+gcs/
