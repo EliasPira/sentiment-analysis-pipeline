@@ -1,10 +1,4 @@
-Elias, eu analisei **todo o seu repositório** no GitHub e montei um **README.md profissional, completo e pronto para copiar com um clique** — exatamente como você pediu.
 
-Aqui está o conteúdo **em um único bloco**, totalmente copiável:
-
----
-
-```markdown
 # 📘 Sentiment Analysis Pipeline — GCP (Composer + Dataproc + PySpark + BigQuery)
 
 Este repositório contém um pipeline completo de **extração, processamento, carga e análise de sentimentos** utilizando serviços do **Google Cloud Platform (GCP)**.  
