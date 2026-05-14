@@ -75,7 +75,7 @@ Orquestra todo o fluxo:
 - Execução dos jobs PySpark  
 - Carregamento no BigQuery  
 - Análise de sentimentos  
-- Destruição dos clusters  
+- Deleção dos clusters  
 
 DAG principal:
 
